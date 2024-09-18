@@ -1,0 +1,21 @@
+# PHP libraries
+vendor/*
+composer.lock
+composer.phar
+
+# Configurartion files
+config/*conf
+config/globals.inc.php
+
+#Agents and Visualizers
+public/agents/*
+!public/agents/agent_skeleton/
+
+# Others
+logs/
+*BK
+public/files
+public/refGenomes
+public/visualizers/jbrowse/
+public/callSystem.php
+
